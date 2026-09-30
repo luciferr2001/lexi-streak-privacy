@@ -63,24 +63,20 @@ The app uses Firebase Analytics (Google) to understand basic usage. It records a
 
 If the app crashes, Firebase Crashlytics (Google) receives a crash report: the error and stack trace, device model, OS version, app version, and a Firebase installation identifier. I use it only to find and fix bugs. Crashlytics keeps crash data for up to 90 days. **Legal basis:** my legitimate interest in keeping the app stable and secure.
 
-## 7. Fonts
-
-The app's typefaces (Fraunces, Inter, JetBrains Mono) are downloaded from Google Fonts the first time they are needed and then cached on your device. Like any web request, this lets Google see your IP address and device details at that moment.
-
-## 8. Other services
+## 7. Other services
 
 - **Google Play In-App Review:** if the app asks you to rate it, the Google Play review dialog is run by Google Play; I do not receive data from it beyond the public review you choose to post.
 - **Sharing your result:** when you tap Share, the text goes to the app you choose through Android's share sheet; the app does not send it anywhere itself.
 
-## 9. Who receives data, and transfers abroad
+## 8. Who receives data, and transfers abroad
 
-The only recipients of data from the app are **Google** (AdMob, Firebase Analytics, Firebase Crashlytics, Cloud Firestore, Google Fonts) and, for the text of suggestions, me as their reader. I do not sell data and I do not share it with anyone else. Google processes data in the United States and other countries; for transfers out of the EEA/UK/Switzerland, Google relies on mechanisms such as the EU–US Data Privacy Framework and Standard Contractual Clauses.
+The only recipients of data from the app are **Google** (AdMob, Firebase Analytics, Firebase Crashlytics, Cloud Firestore) and, for the text of suggestions, me as their reader. I do not sell data and I do not share it with anyone else. Google processes data in the United States and other countries; for transfers out of the EEA/UK/Switzerland, Google relies on mechanisms such as the EU–US Data Privacy Framework and Standard Contractual Clauses.
 
-## 10. Children
+## 9. Children
 
 Lexi Streak is a general-audience game and is **not directed at children under 13** (or under 16 where your country sets a higher age). I do not knowingly collect personal information from children. If you believe a child has sent personal information in a suggestion, email me and I will delete it.
 
-## 11. Your rights
+## 10. Your rights
 
 Because the app holds no account and I cannot identify you from the data I receive, most data about you is held by Google, not me. Still, depending on where you live (for example under the GDPR/UK GDPR, India's Digital Personal Data Protection Act 2023, or California's CCPA/CPRA) you may have the right to: access your data, have it corrected or erased, restrict or object to its use, withdraw consent at any time, data portability, and to make a complaint to a data protection authority (in India, the Data Protection Board; in the EU/UK, your local supervisory authority). You can also nominate someone to exercise these rights for you, and you will not be treated differently for exercising them.
 
@@ -90,10 +86,10 @@ Because the app holds no account and I cannot identify you from the data I recei
 
 I do not make decisions about you by automated means that have legal or similarly significant effects.
 
-## 12. Security
+## 11. Security
 
 Data sent by the app travels over encrypted (HTTPS/TLS) connections. The suggestions database accepts new messages only and cannot be read, changed, or deleted through the app.
 
-## 13. Changes to this policy
+## 12. Changes to this policy
 
 If the app's data practices change (for example a new SDK), I will update this page and the "Last updated" date above, and ask for your consent again where the law requires it.
