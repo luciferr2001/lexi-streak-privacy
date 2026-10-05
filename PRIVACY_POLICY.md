@@ -1,6 +1,6 @@
 # Privacy Policy — Lexi Streak
 
-**Last updated: 30 September 2026**
+**Last updated: 5 October 2026**
 
 Lexi Streak ("the app") is a free word-guessing puzzle game for Android, published by **Rutik Rathod**, an independent developer based in India ("I", "me", "my"). This policy explains what data the app handles, why, who else receives it, and the choices and rights you have.
 
@@ -11,9 +11,9 @@ Rutik Rathod — [rathodrutik05@gmail.com](mailto:rathodrutik05@gmail.com) — [
 
 - There is **no account, login, or sign-up**. I never ask for your name, email, phone number, contacts, photos, microphone, camera, or location.
 - Your game progress stays **on your device**.
-- The app shows **ads (Google AdMob)** and uses **Firebase Analytics and Crashlytics (Google)**. These services collect technical and device data, described below.
+- The app shows **ads (Google AdMob)** and uses **Firebase Analytics and Crashlytics (Google)**. Analytics records **how you use the app** (which buttons you tap, which screens you open and for how long, how your puzzles go), without your name, email, or anything you type. These services also collect technical and device data, described below.
 - If you send a **suggestion** from inside the app, the text you type is stored on Google Firebase servers in the United States.
-- Where the law requires it (EEA, UK, Switzerland), the app asks for your consent before showing personalised ads or using analytics identifiers, and you can change your choice any time in **Settings → Privacy Options**.
+- Where the law requires it (EEA, UK, Switzerland), the app asks for your consent before showing personalised ads or collecting analytics, and **no analytics are collected until you accept**. You can change your choice any time in **Settings → Privacy Options**.
 
 ## 1. Data stored only on your device
 
@@ -48,6 +48,8 @@ The app shows banner, interstitial, and rewarded video ads (a rewarded ad reveal
 - [How Google uses data from partner sites and apps](https://policies.google.com/technologies/partner-sites)
 - [AdMob and Google data disclosures](https://support.google.com/admob/answer/6128543)
 
+Ad events (an ad being shown, viewed, clicked, closed, or failing to load, and which part of the app it appeared in) are also recorded in Firebase Analytics, described in section 5.
+
 **Your choices**
 - **EEA, UK, Switzerland:** on first launch you are shown Google's consent form (via Google's User Messaging Platform) and can accept, decline, or manage your choices. Change it any time in **Settings → Privacy Options**.
 - **US states with privacy laws (for example California):** I do not sell your personal information for money. Advertising identifiers shared with Google for advertising can count as "sharing" or "targeted advertising" under some state laws; you can opt out through the Privacy Options form where shown, or by resetting or deleting your advertising ID in Android **Settings → Privacy → Ads** (and choosing to opt out of ads personalisation).
@@ -55,9 +57,19 @@ The app shows banner, interstitial, and rewarded video ads (a rewarded ad reveal
 
 ## 5. Analytics — Firebase Analytics
 
-The app uses Firebase Analytics (Google) to understand basic usage. It records a few gameplay events — a puzzle win (with your streak number at that time), a puzzle loss, use of a hint, and unlocking an achievement — together with standard automatic data: screens viewed, first open and sessions, app version, device model, OS version, language, approximate location (country/city from IP), and an app-instance identifier. Firebase may also use your advertising ID for this. None of it includes your name, email, or any information I can use to identify you. [Firebase privacy information](https://firebase.google.com/support/privacy). Google keeps this analytics data for a limited period set in my Firebase settings (at most 14 months).
+The app uses Firebase Analytics (Google) to understand in detail how it is used, so I can fix problems and improve it. All of it is anonymous behaviour data; **it never includes your name, email, or anything you type into a text box (such as a suggestion)**. Guesses are not sent as words, but each key you press on the game keyboard is recorded as an individual event (see "Keyboard use" below), so in principle the letters you pressed could be pieced together. It covers:
 
-**Legal basis:** your consent where the law requires it (EEA/UK/Switzerland), otherwise my legitimate interest in understanding how the app is used.
+- **Taps and navigation:** which buttons, rows and icons you tap, which screens you open, and how long you spend on each (total time and time with the app in the foreground).
+- **Keyboard use:** which on-screen key you press (a letter, delete, or enter) and how many boxes of the current row were filled.
+- **Gameplay:** when a puzzle starts or is resumed, its mode (daily, practice, marathon), word length and theme, each accepted guess (its number, how many letters were right, present or absent, and the time since the puzzle started), guesses that were refused and why (too short, not a word, hard-mode rule), hints requested and used, puzzle wins and losses (with guesses used, time taken and your streak at that moment), puzzles left unfinished, Marathon results, and achievements unlocked.
+- **App use:** opening the app, moving it to the background and back (with how long the session lasted), changes you make in Settings (dark mode, sound, haptics, hard mode, reminder), whether you granted notification permission, sharing your result, opening or sending feedback (only the length of the message, never its text), and when the review prompt is shown.
+- **Ads:** an ad being shown, viewed, clicked, closed, or failing, and the part of the app it appeared in.
+- **Summary labels** attached to the app instance: banded counts of your streak and puzzles won (such as "7-13") and whether dark mode, hard mode, reminder, sound and haptics are on.
+- **Standard automatic data** from Firebase: first open and sessions, app version, device model, OS version, language, approximate location (country/city from IP), and an app-instance identifier. Firebase may also use your advertising ID for this.
+
+None of it identifies you to me. [Firebase privacy information](https://firebase.google.com/support/privacy). Google keeps this analytics data for a limited period set in my Firebase settings (at most 14 months).
+
+**Consent and your choices:** where the law requires consent (EEA/UK/Switzerland) the app collects **no analytics until you accept** in Google's consent form, and if you later withdraw consent in **Settings → Privacy Options**, collection stops. Elsewhere, analytics is on; you can reset or delete your advertising ID in Android settings, and you can ask me to delete anything I can link to you (see section 10). **Legal basis:** your consent where the law requires it, otherwise my legitimate interest in understanding how the app is used.
 
 ## 6. Crash reports — Firebase Crashlytics
 
